@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Login_screen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mediumlogo"
+        />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/mediumsemibold"
+        android:text="Medium"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        />
+
+    <TextView
+        android:id="@+id/create_account"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:text="CREATE YOUR ACCOUNT"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:fontFamily="@font/mediumreguler"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/what_email"
+        android:layout_width="290dp"
+        android:layout_height="136dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="142dp"
+        android:text="What’s your email?"
+        android:textSize="48sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mediumreguler"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/your_email"
+        android:layout_width="244dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:text="Your email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/mediumreguler"
+        android:gravity="center_horizontal|top"
+        />
+
+    <EditText
+        android:id="@+id/TextEmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="70dp"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/mediumreguler"
+        android:background="@drawable/corner"
+        />
+    <TextView
+        android:id="@+id/by_signing_"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="593dp"
+        android:text="@string/by_signing_" />
+
+</RelativeLayout>

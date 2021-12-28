@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_screen">
+
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/mediumsemibold"
+        android:text="Medium"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        />
+
+    <TextView
+        android:id="@+id/join_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/mediumreguler"
+        android:gravity="center_horizontal|top"
+        android:text="Join Medium."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="210dp"
+        />
+
+    <Button
+        android:id="@+id/buttonGoogle"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/google"
+        android:paddingLeft="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sign up with Google"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="318dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/email"
+        android:paddingLeft="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sign up with Email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="383dp"
+        android:onClick="Move"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mediumlogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="92dp"
+        />
+
+    <View
+        android:layout_width="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="380dp"
+        android:background="@android:color/darker_gray"
+        />
+
+
+    <TextView
+        android:id="@+id/or_sign_up_"
+        android:layout_width="107dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="369dp"
+        android:gravity="top"
+        android:fontFamily="@font/mediumreguler"
+        android:text="or, sign up with"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"
+        />
+
+    <View
+        android:layout_width="135dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="380dp"
+        android:background="@android:color/darker_gray"
+        />
+
+
+    <Button
+        android:id="@+id/facebook_1_"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/border1"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="13dip"
+        android:paddingRight="10dip"
+        />
+
+    <TextView
+        android:id="@+id/Signin"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/mediumreguler"
+        android:gravity="top"
+        android:text="Already have an account? Sign in"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/by_signing_"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="593dp"
+        android:text="@string/by_signing_" />
+
+
+</RelativeLayout>
